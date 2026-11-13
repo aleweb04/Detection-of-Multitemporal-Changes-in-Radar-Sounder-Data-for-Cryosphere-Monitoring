@@ -1,0 +1,65 @@
+[
+    {
+        "id": "patch_0",
+        "offset_nel_frame": 0,
+        "pixel_originale_immagine": 456,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_1",
+        "offset_nel_frame": 128,
+        "pixel_originale_immagine": 584,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_2",
+        "offset_nel_frame": 256,
+        "pixel_originale_immagine": 712,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_3",
+        "offset_nel_frame": 384,
+        "pixel_originale_immagine": 840,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_4",
+        "offset_nel_frame": 512,
+        "pixel_originale_immagine": 968,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_5",
+        "offset_nel_frame": 640,
+        "pixel_originale_immagine": 1096,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    },
+    {
+        "id": "patch_6",
+        "offset_nel_frame": 768,
+        "pixel_originale_immagine": 1224,
+        "range_verticale": [
+            519,
+            1189
+        ]
+    }
+]

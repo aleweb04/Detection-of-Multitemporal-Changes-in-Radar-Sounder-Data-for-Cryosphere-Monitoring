@@ -1,0 +1,32 @@
+
+==========
+== CUDA ==
+==========
+
+CUDA Version 11.8.0
+
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+
+Total pairs: 530
+Traceback (most recent call last):
+  File "/app/Training/Train_main_ShallowCNN_ASPP.py", line 139, in <module>
+    out = model(x)
+  File "/home/rsde/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/rsde/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/Training/Train_main_ShallowCNN_ASPP.py", line 44, in forward
+    x = self.aspp(x)
+  File "/home/rsde/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/rsde/.local/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/app/Training/utils/aspp.py", line 70, in forward
+    x = torch.cat(res, dim=1)
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 15.00 GiB. GPU 0 has a total capacity of 31.73 GiB of which 4.18 GiB is free. Process 2988384 has 27.55 GiB memory in use. Of the allocated memory 27.19 GiB is allocated by PyTorch, and 1.58 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

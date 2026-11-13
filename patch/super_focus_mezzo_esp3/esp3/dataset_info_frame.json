@@ -1,0 +1,20 @@
+[
+    {
+        "id": "patch_0",
+        "offset_nel_frame": 0,
+        "pixel_originale_immagine": 2923,
+        "range_verticale": [
+            240,
+            535
+        ]
+    },
+    {
+        "id": "patch_1",
+        "offset_nel_frame": 128,
+        "pixel_originale_immagine": 3051,
+        "range_verticale": [
+            240,
+            535
+        ]
+    }
+]
